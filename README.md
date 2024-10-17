@@ -1,4 +1,4 @@
-~~# FastDFS 文件删除工具
+# FastDFS 文件删除工具
 
 ## 概述
 
@@ -49,7 +49,7 @@ python main.py <group_name> <log_directory> <start_date> <cutoff_date> [--test] 
 ### 示例
 
 ```bash
-python main.py group_name /path/to/logs 2023-01-01 2023-01-31 --test
+python main.py group1 .\example\ 2022-07-01 2022-07-01 --test
 ```
 
 在测试模式下，以上命令将仅打印将要执行的删除命令，而不实际删除文件。
@@ -63,7 +63,3 @@ python main.py group_name /path/to/logs 2023-01-01 2023-01-31 --test
 ## 贡献
 
 欢迎任何对本项目的贡献！请通过提交问题或拉取请求与我们联系。
-
-## 许可证
-
-该项目遵循 MIT 许可证。有关详细信息，请查看 LICENSE 文件。~~
